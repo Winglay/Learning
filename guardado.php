@@ -17,6 +17,13 @@ else{
 	$email = $_POST["iemail"];
 	$telefono = $_POST["itelefono"];
 	
+	if (is_null($nombre)) {
+		echo "Debe poner el nombre";
+
+		// code...
+	}
+	else
+		
 
 	$sql = "INSERT INTO usuariosdb (nombre,apellido,email,telefono) VALUES ('$nombre','$apellido','$email','$telefono')";
 	//si la conexion es exitosa, ejecutamos la consulta
