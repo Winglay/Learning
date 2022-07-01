@@ -1,0 +1,17 @@
+table, th, td {
+  border: 1px solid;
+  width: auto ;
+  text-align: center;
+}
+
+table {width: 100%;
+max-width: 600px;
+
+
+
+}
+
+.campo {
+
+  font-weight: bold;
+}
