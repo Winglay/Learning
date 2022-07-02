@@ -19,13 +19,8 @@ else{
 	$email = $_POST["email"];
 	$telefono = $_POST["telefono"];
 	
-	if (is_null($nombre)) {
-		echo "Debe poner el nombre";
 
-		// code...
-	}
-
-	else
+	
 	
 
 
@@ -33,6 +28,7 @@ else{
 	//si la conexion es exitosa, ejecutamos la consulta
 	if ($conexion->query($sql) === TRUE) {
 		echo "Entrada creada con exito";
+		header("Location: registro.php"); die();
 	}else {
 		echo "Error: " . $sql . "<br>" . $conexion->error;
 	}
