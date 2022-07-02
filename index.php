@@ -15,8 +15,8 @@ $conexion=mysqli_connect("localhost","root","","usuarios");
     <title>Mostrar registros</title>
 </head>
 <body>
-    <table >
-        <tr class="Campos">
+    <table>
+        <tr>
         <td>ID</td>
         <td>Nombre</td>
         <td>Apellido</td>
