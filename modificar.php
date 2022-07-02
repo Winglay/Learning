@@ -13,12 +13,11 @@ if (!$conexion) {
 }
 else
 {
-	$id = $_POST['id'];
 	$id = $_GET['id'];
-	$nombre = $_POST['nombre'];
-	$apellido = $_POST['apellido'];
-	$email = $_POST['email'];
-	$telefono = $_POST['telefono'];
+	$nombre = !isset($_GET['nombre']) ? ""  : $_GET['nombre'];
+	$apellido = !isset($_GET['apellido']) ? "" : $_GET['apellido'];
+	$email = !isset($_GET['email']) ? "" : $_GET['email'];
+	$telefono = !isset($_GET['telefono']) ?""  : $_GET['email'];
 
 
 

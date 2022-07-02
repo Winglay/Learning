@@ -15,7 +15,7 @@ $id = $_GET['id'];
 	<h1 id="titulo">DATOS</h1>
 
 	<div >
-		<form method="POST" action="modificar.php" name="formulario" id="formulario">
+		<form method="POST" action="modificar.php">
 
 	  <?php 
 		
